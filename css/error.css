@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+
+    
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(134, 172, 230);
+    }
+
+div{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    }
+
+.error{
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {    
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    }
+
+div{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    }
+
+.error{
+    margin-top: 15px;
+    width: 50%;
+    height: 50%;
+    }
+}
+    
