@@ -1,18 +1,91 @@
+@media screen and (max-width: 768px) {  
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color: rgb(58, 87, 119);
+        }
+    
+    h1{
+        color: rgb(33, 10, 135);
+        padding: 30px;
+        margin: 30px;
+        border: double 5px rgb(33, 10, 135);
+        background-color: rgb(161, 149, 231);
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        padding: 3vh 10vw;
+        justify-content: space-between;
+    
+    }
+    .contenedorPadre{
+        
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+    }
+    
+    .items{
+        padding: 7px;
+        border: solid 1px;
+        border-radius: 5px;
+        background-color: peru;
+        color: azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .contenedorPadreDos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-content: center; 
+    }
+        
+    .login{
+        display: inline-flex;
+        padding: 7px;
+        border: solid 1px black;
+        border-radius: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-size: 18px;
+}
+}
+@media screen and (min-width: 768px) {  
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: rgb(134, 172, 230);
+    background-color: rgb(174, 164, 123);
     }
 
 h1{
-    color: rgb(86, 33, 107);
+    color: rgb(155, 72, 24);
     padding: 30px;
     margin: 30px;
+    border: double 5px rgb(101, 40, 5);
+    background-color: rgb(194, 186, 151);
     display: flex;
     justify-content:center ;
     align-items: center;
-    font-size: 60px;
+    text-align: center;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
@@ -62,4 +135,4 @@ header{
     background-color: black;
     font-size: 18px;
 }
-    
+}
